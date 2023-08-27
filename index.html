@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1798/1798357.png">
     <link href="css/index.css" rel="stylesheet">
-    <script src="script/index.js"></script>
     <title>Homie</title>
 </head>
 <body>
@@ -27,11 +26,39 @@
             </ul>
         </nav>
     </section>
-    
-    <section>
-    
 
-    </section>
+
+    <main>
+        <section id="searchbar">
+            <form>
+                <input type="search" placeholder="search...">
+                <button type="submit"></button >
+            </form>
+        </section>
+
+
+
+        <section id="card-container">
+            <div class="card" style="display: none;">
+                <div id="img-div"><img src="${detail.pictureUrl}"> </div>
+                <div id="title-div"> <p>${detail.title}</p> </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <p>© Pawan Bhatt ™Biatch</p>
+        <p ><a class="profile-btn" href="https://leetcode.com/pawanbhatt1198/" target="_blank">Leetcode</a></p>
+        <p ><a class="profile-btn" href="https://www.linkedin.com/in/pawan-bhatt-ab0aa7141/" target="_blank">LinkedIn</a></p>
+        <p>Email : imcool.pawanbhattjarvis@gmail.com </p>
+    </footer>
+    
 
 </body>
+<script src="script/index.js"></script>
 </html>
